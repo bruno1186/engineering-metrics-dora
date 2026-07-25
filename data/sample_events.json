@@ -1,0 +1,20 @@
+{
+  "deployments": [
+    {"id": "d1", "committed_at": "2026-06-26T09:00:00", "deployed_at": "2026-06-26T15:00:00", "caused_incident": false},
+    {"id": "d2", "committed_at": "2026-06-27T10:00:00", "deployed_at": "2026-06-27T14:00:00", "caused_incident": false},
+    {"id": "d3", "committed_at": "2026-06-29T08:00:00", "deployed_at": "2026-06-29T20:00:00", "caused_incident": true},
+    {"id": "d4", "committed_at": "2026-07-01T09:00:00", "deployed_at": "2026-07-01T16:00:00", "caused_incident": false},
+    {"id": "d5", "committed_at": "2026-07-03T09:00:00", "deployed_at": "2026-07-03T11:00:00", "caused_incident": false},
+    {"id": "d6", "committed_at": "2026-07-05T09:00:00", "deployed_at": "2026-07-05T13:00:00", "caused_incident": false},
+    {"id": "d7", "committed_at": "2026-07-08T09:00:00", "deployed_at": "2026-07-08T10:00:00", "caused_incident": false},
+    {"id": "d8", "committed_at": "2026-07-10T09:00:00", "deployed_at": "2026-07-12T09:00:00", "caused_incident": true},
+    {"id": "d9", "committed_at": "2026-07-13T09:00:00", "deployed_at": "2026-07-13T12:00:00", "caused_incident": false},
+    {"id": "d10", "committed_at": "2026-07-16T09:00:00", "deployed_at": "2026-07-16T11:00:00", "caused_incident": false},
+    {"id": "d11", "committed_at": "2026-07-20T09:00:00", "deployed_at": "2026-07-20T10:00:00", "caused_incident": false},
+    {"id": "d12", "committed_at": "2026-07-23T09:00:00", "deployed_at": "2026-07-23T09:30:00", "caused_incident": false}
+  ],
+  "incidents": [
+    {"id": "i1", "deployment_id": "d3", "opened_at": "2026-06-29T20:15:00", "resolved_at": "2026-06-29T21:45:00"},
+    {"id": "i2", "deployment_id": "d8", "opened_at": "2026-07-12T09:10:00", "resolved_at": "2026-07-12T14:10:00"}
+  ]
+}
