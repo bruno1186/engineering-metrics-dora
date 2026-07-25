@@ -30,4 +30,6 @@ jobs:
         run: pytest --cov=dora --cov-report=term-missing
 
       - name: CLI smoke test
+        env:
+          PYTHONPATH: src
         run: python -m dora.cli data/sample_events.json --period-days 30
