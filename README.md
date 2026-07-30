@@ -62,3 +62,7 @@ O formato de entrada é um JSON simples (`deployments` + `incidents`) que pode s
 ## Stack
 
 Python 3.10+ · dataclasses · pytest (testes parametrizados) · GitHub Actions (matrix 3.10/3.11/3.12)
+
+## Sobre a publicação
+
+Este projeto foi construído e publicado como referência de arquitetura para a comunidade, refletindo padrões e decisões técnicas aplicados na prática profissional (sem reproduzir código ou dados de projetos proprietários).
